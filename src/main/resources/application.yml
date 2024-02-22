@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  thymeleaf:
+    cache: false
+  data:
+    mongodb:
+      host: 172.17.201.68
+      port: 6500
+      database: msgDB
+security:
+  basic:
+    enable: false
+  ignored: /**
