@@ -3,14 +3,18 @@ body {
     padding: 0;
     background-color:#715d7a;
 }
+.topContain {
+    display: flex;
+    width:900px;
+    margin:0 auto;
+}
 h1 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    line-height:120px;
+    padding-top: 10px;
+    flex:2;
 }
 header {
     background-color: rgb(130, 102, 155);
+    height: 120px;
 }
 footer {
     height:120px;
@@ -21,4 +25,24 @@ footer {
    width:1000px;
    background-color:#a08ebc;
    height: 100vh;
+}
+nav {
+    flex:1;
+}
+nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li {
+    display:inline-block;
+    margin-left: 40px;
+    padding-top: 45px;
+
+    position:relative;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
 }
