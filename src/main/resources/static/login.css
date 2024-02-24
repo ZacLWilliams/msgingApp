@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#5b4b62;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+header, footer {
+    background-color: #67517a;
+    height: 120px;
+}
+.centre {
+    margin:auto; 
+    width:1000px;
+    background-color:#4f4162;
+    height: 100vh;
+}
+.login {
+    text-align: center;
+    margin:0 auto;
+    width: 170px;
+}
+.user, .pass {
+    float: left;
+}
+.button {
+    width: 170px;
+}
+.noacc {
+    margin-top: 50px;
+    left:50%;
+    text-align: center;
+}
+a, p {
+    color: white;
+}
+.err {
+    margin-top: 5px;
+    position: absolute;
+}

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#715d7a;
+    background-color:#5b4b62;
 }
 .topContain {
     display: flex;
@@ -9,21 +9,18 @@ body {
     margin:0 auto;
 }
 h1 {
+    color: white;
     padding-top: 10px;
     flex:2;
 }
-header {
-    background-color: rgb(130, 102, 155);
+header, footer {
+    background-color: #67517a;
     height: 120px;
-}
-footer {
-    height:120px;
-    background-color: rgb(130, 102, 155);
 }
 .centre {
    margin:auto; 
    width:1000px;
-   background-color:#a08ebc;
+   background-color: #4f4162;
    height: 100vh;
 }
 nav {
@@ -42,7 +39,7 @@ nav li {
     position:relative;
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.thymeleaf.org">
   <head>
-    <link th:href="@{/login.css}" rel="stylesheet">
-    <title>Login</title>
+    <link th:href="@{/createAccount.css}" rel="stylesheet">
+    <title>Create</title>
   </head>
   <body>
     <header>
-      <h1>Login</h1> 
+      <h1>Create Account</h1> 
     </header>
     <div class="centre"> 
       <div class="login">
@@ -20,14 +20,14 @@
               <p class="pass">Password</p>
               <input type="password">
             </div>
-            <br>
+            <div>
+              <p class="confirmpass">Confirm Password</p>
+              <input type="password">
+            </div>
+            <br><br>
             <input type="submit" value="Login" class="button"><div th:if="${param.error}" class="err">Invalid username or password.</div>
           </div>
         </form>
-      </div>
-      <div class="noacc">
-        <p>Don't have an account? Create one here.</p>
-        <a href="/createAccount">Create Account</a>
       </div>
     </div>
     <footer class="bottomHeader">
